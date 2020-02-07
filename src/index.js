@@ -1,7 +1,7 @@
 require('../assets/index.scss')
 
-document.write('Hello 😎 🎗 !')
+document.write('Hello World BBBB 😎 !')
 
-let aaaa = 'testa transpilé????'
+let bbbb = 'testa transpilé????'
 
-console.log('rossa aaaa=', aaaa)
+console.log('rossa bbbb=', bbbb)
