@@ -20,7 +20,8 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-     template: './src/index.html'
+     template: './src/index.html',
+     inject: 'body'
     }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
@@ -56,8 +57,10 @@ const config = {
     ]
   },
   devServer: {
-    contentBase: path.resolve(__dirname, "./public"),
+    // contentBase: path.resolve(__dirname, "./public"),
+    contentBase: path.join(__dirname, 'src'),
     historyApiFallback: true,
+    watchContentBase: true,
     inline: true,
     open: true,
     hot: true
