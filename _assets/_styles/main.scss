@@ -19,15 +19,14 @@
   'base/typography';
 
 // 4. Layout-related sections
-@import
-  'layout/content',
-  'layout/header',
-  'layout/footer',
-  'layout/screen';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/section';
 
 // 5. Components
 @import
-  'components/button';
+  'components/button',
+  'components/menu';
 
 // 6. Page-specific styles
 @import

@@ -1,0 +1,23 @@
+.menu {
+  list-style-type:none;
+  font-size: $menu-font-size;
+
+  &__item {
+    display: inline-block;
+    padding: 2rem 2.8rem;
+
+    > a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    > a:active {
+      font-weight: 600;
+    }
+
+    > a:hover {
+      border-bottom: .1rem solid;
+      padding-bottom: .2rem;
+    }
+  }
+}

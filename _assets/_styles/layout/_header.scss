@@ -1,13 +1,5 @@
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-
-  &__title {
-    text-align: center;
-  }
-
-  &__logo {
-    height: 6.5rem;
-  }
 }
