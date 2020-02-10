@@ -1,4 +1,4 @@
-require('../assets/index.scss')
+require('../_assets/_styles/main.scss')
 
 document.write('Hello World BBBB 😎 !')
 
