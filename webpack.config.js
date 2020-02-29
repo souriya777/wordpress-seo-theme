@@ -26,7 +26,8 @@ const config = {
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
-      filename: '[name].css',
+      // original value : `filename: '[name].css',`
+      filename: 'style.css',
       chunkFilename: '[id].css',
     })
   ],

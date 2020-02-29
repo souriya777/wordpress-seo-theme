@@ -4,7 +4,8 @@
   "description": "Wordpress SEO Theme",
   "scripts": {
     "start": "webpack-dev-server -d --hot --config webpack.config.js --watch",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "webpack --config webpack.config.prod.js",
+    "integrate": "yarn build; cp ./public/style.css ./wp-timber/wp-content/themes/starter-theme/style.css"
   },
   "author": "Souriya Phongsavanh",
   "license": "MIT",
