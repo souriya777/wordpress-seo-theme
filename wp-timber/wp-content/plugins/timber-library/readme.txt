@@ -3,7 +3,7 @@ Contributors: jarednova
 Tags: template engine, templates, twig
 Requires at least: 4.9.8
 Tested up to: 5.3.2
-Stable tag: 1.15.0
+Stable tag: 1.15.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,12 @@ _Twig is the template language powering Timber; if you need a little background 
 
 **Changes for Theme Developers**
 
+
+= 1.15.1 =
+**Fixes and improvements**
+* Fixed an issue where null results from `PostGetter::get_posts` could trigger a fatal error #2199 (thanks @jhhazelaar)
+* Removed a useless and confusing error_log message when a `post_type` isn't found in a class map #2202 (thanks @gchtr)
+* Fixed a documentation issue that gave phpStorm a bad time with `query_post` #2205 (thanks @mweimerskirch)
 
 = 1.15.0 =
 **Fixes and improvements**
